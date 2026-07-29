@@ -11,7 +11,7 @@ const tours = [
   {
     id: 1,
     title: "Kainchi Dham",
-    image: "/media/tours/kainchi-dham.jpg",
+    image: "/tour/baba.jpg",
     distance: "Approx. 65 km",
     duration: "Full-day trip",
     description:
@@ -20,7 +20,7 @@ const tours = [
   {
     id: 2,
     title: "Nainital",
-    image: "/media/tours/nainital.jpg",
+    image: "/tour/mandir4.jpg",
     distance: "Approx. 75 km",
     duration: "Full-day trip",
     description:
@@ -29,7 +29,7 @@ const tours = [
   {
     id: 3,
     title: "Mukteshwar",
-    image: "/media/tours/mukteshwar.jpg",
+    image: "/tour/mandir5.jpg",
     distance: "Approx. 55 km",
     duration: "Full-day trip",
     description:
@@ -38,7 +38,7 @@ const tours = [
   {
     id: 4,
     title: "Bhimtal",
-    image: "/media/tours/bhimtal.jpg",
+    image: "/tour/mandir6.jpg",
     distance: "Approx. 70 km",
     duration: "Full-day trip",
     description:
@@ -47,7 +47,7 @@ const tours = [
   {
     id: 5,
     title: "Sattal",
-    image: "/media/tours/sattal.jpg",
+    image: "/tour/mandir3.jpg",
     distance: "Approx. 72 km",
     duration: "Full-day trip",
     description:
@@ -56,7 +56,7 @@ const tours = [
   {
     id: 6,
     title: "Almora",
-    image: "/media/tours/almora.jpg",
+    image: "/tour/almora.jpg",
     distance: "Approx. 80 km",
     duration: "Full-day trip",
     description:
@@ -103,12 +103,12 @@ function NearbyTours() {
               key={tour.id}
               className="group relative overflow-hidden rounded-[30px] border border-white/10 bg-[#0B1C12] shadow-[0_25px_80px_rgba(0,0,0,0.25)] transition duration-500 hover:-translate-y-2 hover:border-[#F0A14A]/35"
             >
-              <div className="relative h-310px overflow-hidden bg-[#102218]">
+              <div className="relative h-72 overflow-hidden bg-[#102218]">
                 <img
                   src={tour.image}
                   alt={tour.title}
                   loading="lazy"
-                  className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
+                  className="h-full w-full object-cover object-center transition duration-700 group-hover:scale-110"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to- from-[#06140D] via-[#06140D]/20 to-transparent" />
