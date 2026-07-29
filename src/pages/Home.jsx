@@ -44,7 +44,7 @@ function Home() {
 
   return (
     <>
-    
+
   <SEO
     title="Bisguli Homestay | Luxury Himalayan Village Stay"
     description="Experience authentic Kumaoni hospitality with luxury village stays, Himalayan views, local food and unforgettable mountain experiences."
