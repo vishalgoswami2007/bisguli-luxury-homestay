@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Bisguli Homestay",
+  "url": "https://bisguli-luxury-homestay.vercel.app/",
+  "image": "https://bisguli-luxury-homestay.vercel.app/og-image.jpg",
+  "description": "Luxury Himalayan Village Stay in Uttarakhand.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Uttarakhand",
+    "addressCountry": "IN"
+  }
+}

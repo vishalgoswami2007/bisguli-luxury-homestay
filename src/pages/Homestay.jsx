@@ -10,6 +10,13 @@ import HomeGallery from "../components/homestay/HomestayGallery"
 function Homestay() {
   return (
     <>
+
+        <SEO
+    title="Gallery | Bisguli Homestay"
+    description="Explore beautiful Himalayan landscapes, luxury cottages, local culture and unforgettable experiences through our gallery."
+    url="https://bisguli-luxury-homestay.vercel.app/homestay/gallery"
+       />
+       
       <Navbar />
 
       <main className="bg-[#03150D]">

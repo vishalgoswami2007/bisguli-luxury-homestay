@@ -12,6 +12,13 @@ import PackageCTA from "../components/packages/PackageCTA";
 function Packages() {
   return (
     <>
+
+        <SEO
+    title="Stay Packages | Bisguli Homestay"
+    description="Choose handcrafted stay packages including village walks, local food, seasonal experiences and Himalayan adventures."
+    url="https://bisguli-luxury-homestay.vercel.app/packages"
+        />
+
       <Navbar />
 
       <PackageHero />

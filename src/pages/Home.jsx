@@ -15,6 +15,7 @@ import Testimonials from "../components/home/Testimonials";
 import FAQ from "../components/home/FAQ";
 import Footer from "../components/layout/Footer";
 import ScrollToTopButton from "../components/common/ScrollToTopButton";
+import SEO from "../components/common/SEO";
 
 function Home() {
   const location = useLocation();
@@ -43,6 +44,14 @@ function Home() {
 
   return (
     <>
+    
+  <SEO
+    title="Bisguli Homestay | Luxury Himalayan Village Stay"
+    description="Experience authentic Kumaoni hospitality with luxury village stays, Himalayan views, local food and unforgettable mountain experiences."
+    url="https://bisguli-luxury-homestay.vercel.app/"
+  />
+
+   
       <Navbar />
 
       <main className="bg-[#03150D]">
