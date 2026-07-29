@@ -8,7 +8,7 @@ function ExperienceGallery() {
       category: "Stay",
       description:
         "Wake up to fresh mountain air, peaceful mornings and authentic Himalayan hospitality.",
-      image: "/public/explore/homestay.jpg",
+      image: "/explore/homestay.jpg",
       size: "lg:col-span-2 lg:row-span-2",
     },
     {
@@ -16,7 +16,7 @@ function ExperienceGallery() {
       category: "Nature",
       description:
         "Walk through orchards filled with apples, peaches, apricots and plums.",
-      image: "/public/explore/orchard.webp",
+      image: "/explore/orchard.webp",
       size: "",
     },
     {
@@ -24,7 +24,7 @@ function ExperienceGallery() {
       category: "Village",
       description:
         "Experience slow village life surrounded by forests and mountain landscapes.",
-      image: "/public/explore/village.jpg",
+      image: "/explore/village.jpg",
       size: "",
     },
     {
@@ -32,7 +32,7 @@ function ExperienceGallery() {
       category: "Food",
       description:
         "Fresh homemade meals prepared with traditional Kumaoni recipes.",
-      image: "/public/explore/food.jpg",
+      image: "/explore/food.jpg",
       size: "lg:col-span-2",
     },
   ];
