@@ -8,7 +8,7 @@ import NearbyTours from "../components/packages/NearbyTours";
 import StayIncluded from "../components/packages/StayIncluded";
 import BookingSteps from "../components/packages/BookingSteps";
 import PackageCTA from "../components/packages/PackageCTA";
-import SEO from "../components/SEO";
+import SEO from "../components/common/SEO";
 
 function Packages() {
   return (

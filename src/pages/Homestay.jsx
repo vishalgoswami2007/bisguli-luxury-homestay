@@ -6,7 +6,7 @@ import RoomGallery from "../components/homestay/RoomGallery";
 import RoomDetails from "../components/homestay/RoomDetails";
 import Amenities from "../components/homestay/Amenities";
 import HomeGallery from "../components/homestay/HomestayGallery"
-import SEO from "../components/SEO";
+import SEO from "../components/common/SEO";
 
 function Homestay() {
   return (
